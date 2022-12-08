@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeModule } from './sandbox/home/home.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -11,7 +12,8 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],
