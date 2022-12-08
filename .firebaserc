@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "shark-and-stone"
+  },
+  "targets": {
+    "shark-and-stone": {
+      "hosting": {
+        "shark-and-stone": [
+          "shark-and-stone"
+        ]
+      }
+    }
   }
 }
